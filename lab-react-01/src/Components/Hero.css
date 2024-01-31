@@ -1,0 +1,53 @@
+header {
+    width: 100vw;
+    margin: 0;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 80px !important;
+    color: white;
+    text-align: left;
+    width: 30%;
+    padding: 0 100px;
+}
+
+.textContainer p {
+    font-size: 32px;
+    width: 40%;
+    color: white;
+    text-align: left;
+    padding: 0 100px;
+    
+}
+
+a {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 100px;
+}
+
+#logo {
+    width: auto;
+    height: 15px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    height: fit-content;
+    width: fit-content;
+    padding: 32px 100px
+}
